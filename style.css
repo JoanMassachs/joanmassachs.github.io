@@ -1,0 +1,73 @@
+/* Copyright 2023 Joan Massachs
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+body {
+  font: 1em/1.6 sans-serif;
+  margin: auto;
+  max-width: 40em;
+  padding: 1em;
+}
+
+h1 {
+  display: inline;
+  line-height: 2.7;
+}
+
+h2 {
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #33f;
+}
+
+a:link:hover {
+  color: #39f;
+}
+
+a:visited {
+  color: #93f;
+}
+
+a:visited:hover {
+  color: #f3f;
+}
+
+a.lang {
+  float: right;
+  line-height: 5.4
+}
+
+:target {
+  animation: highlight 1s forwards;
+}
+
+@keyframes highlight {
+  from {
+    background-color: #ffc;
+    color: #000;
+  }
+}
+
+ul {
+  list-style-type: '—';
+  margin-top: 0;
+  padding-left: 1em;
+}
+
+li {
+  padding-left: 0.5em;
+}
+
+ul.links {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding-left: 0;
+  padding-top: 0.5em;
+}
